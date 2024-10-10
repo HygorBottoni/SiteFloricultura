@@ -1,1 +1,0 @@
-Esse repositório é referente ao site de uma floricultura
