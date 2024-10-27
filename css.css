@@ -1,21 +1,34 @@
 /*Pagina criada para estilizar as divs criadas em HTML.*/
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Prata&display=swap');
+
 
 
 #faixaMenu{
     background-color:#617946;
-    padding:0px;
+    padding:5px;
     margin:0px;
     height: 35px;
     margin-top: -20px;
     
 }
 
+#menuItem ul{
+    margin: 0;
+    padding: 0;
+    float: left;
+    background-color: #617946;
+    list-style: none;
+    padding: 2px;
+    width: 98%;
+
+}
+
 #menuItem ul li{
-    
+    box-sizing: border-box;
     display: inline;
     background-color: #617946;
-    padding:0px;
+    padding:5px;
     margin:10px;
     list-style:none;
     font-family: "Cinzel", serif;
@@ -24,15 +37,24 @@
    
             
 }
-a{
+#menuItem_itens{  
+    border-bottom:2px solid white;
     text-decoration: none;
+    
 
 }
+
+#menuItem_itens:hover {
+    background-color:#948c75;
+    color: #99b2b7;
+    border-bottom:3px solid #948c75;
+   }
+
 .tituloDoSite{ 
     align-content: center;
     color: #D97171;
     font-size: 50px;   
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Prata", serif;
    
 }   
 
@@ -43,7 +65,7 @@ a{
     padding:2px;
     margin:50px;
     list-style:none;
-    font-family: "Cinzel", serif;
+    font-family: "Prata", serif;
     color: white;
     display: inline-block;
    
@@ -63,14 +85,14 @@ a{
     position: fixed;
     bottom: 0;
     width: 100%;
-    font-family: "Cinzel", serif;
+    font-family: "Prata", serif;
     font-size: small;
     
     
 }
 
 #descricaoArranjos{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Prata", serif;
     align-content: right;
     font-size: small;
     
@@ -89,7 +111,7 @@ a{
 }
 
 .descricaoArranjo{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Prata", serif;
     font-size: 15px;
     
 
@@ -121,7 +143,7 @@ a{
 }
 
 #corpoPaginaInicial{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Prata", serif;
     color: black;
     margin-top: 190px;
 
