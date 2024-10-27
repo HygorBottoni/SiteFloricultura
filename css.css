@@ -4,6 +4,13 @@
 
 
 
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: white;
+
+}
+
 #faixaMenu{
     background-color:#617946;
     padding:5px;
@@ -40,14 +47,15 @@
 #menuItem_itens{  
     border-bottom:2px solid white;
     text-decoration: none;
+    color: white;
     
 
 }
 
 #menuItem_itens:hover {
-    background-color:#948c75;
-    color: #99b2b7;
-    border-bottom:3px solid #948c75;
+    background-color:#d9e4e3;
+    color: #8d9485;
+    border-bottom:3px solid white;
    }
 
 .tituloDoSite{ 
@@ -147,4 +155,27 @@
     color: black;
     margin-top: 190px;
 
+}
+
+#corpoIndex{
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#missao{
+    padding-left: 50px;
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+.corpoDaPagina{
+    margin: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
